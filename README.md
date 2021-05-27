@@ -7,23 +7,23 @@ stylelint configuration file for WACG projects
 
 npm
 ```sh
-npm i -D eslint @wacg/eslint-config
+npm i -D stylelint @wacg/stylelint-config
 ```
 
 yarn
 ```sh
-yarn add -D eslint @wacg/eslint-config
+yarn add -D stylelint @wacg/stylelint-config
 ```
 <!-- installing (end) -->
 
 <!-- configuration (start) -->
 ### Configuration
-add `.eslintrc.js` in the root dirictory of your project with following content:
+add `.stylelintrc.js` in the root dirictory of your project with following content:
 
 ```js
 module.exports = {
   extends: [
-    '@wacg/eslint-config'
+    '@wacg/stylelint-config'
   ]
 }
 ```
@@ -35,8 +35,8 @@ add the following task to the `scripts` section of your `package.json`
 
 ```json
 "scripts": {
-  "lint": "eslint **/*.js",
-  "lint:fix": "eslint **/*.js --fix"
+  "lint": "stylelint **/*.js",
+  "lint:fix": "stylelint **/*.js --fix"
 }
 ```
 <!-- tasks (end) -->
