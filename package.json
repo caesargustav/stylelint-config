@@ -11,6 +11,9 @@
     "lint",
     "config"
   ],
+  "dependencies": {
+    "stylelint-config-recommended": "^5.0.0"
+  },
   "peerDependencies": {
     "stylelint": ">= 13"
   }
