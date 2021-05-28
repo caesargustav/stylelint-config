@@ -2,7 +2,7 @@
   "name": "@wacg/stylelint-config",
   "description": "stylelint configuration file for WACG projects",
   "author": "Sergej Samsonenko",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "index.js",
   "keywords": [
