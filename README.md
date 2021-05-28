@@ -35,8 +35,8 @@ add the following task to the `scripts` section of your `package.json`
 
 ```json
 "scripts": {
-  "lint": "stylelint **/*.js",
-  "lint:fix": "stylelint **/*.js --fix"
+  "lint": "stylelint **/*.css",
+  "lint:fix": "stylelint **/*.css --fix"
 }
 ```
 <!-- tasks (end) -->
